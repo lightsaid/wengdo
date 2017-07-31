@@ -1,0 +1,153 @@
+.white{
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+p{
+	font-size: 12px;
+	line-height: 18px;
+}
+.hs{
+	color:#999; 
+}
+.margin-top30{
+	margin-top: 30px;
+}
+.padding-right{
+	padding-right: 0;
+}
+.title1{
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+.more{
+	border-bottom: 1px solid #ddd;
+	line-height: 29px;
+	color: #333;
+}
+.zx{
+	padding-left: 10px;
+}
+.zx li{
+	background: url(../images/xuebitu.png)no-repeat 0 4px;
+}
+.zx a{
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+	text-indent: 12px;
+}
+.mg0{
+	margin: 0;
+	float: right;
+}
+.More{
+	font-size: 14px;
+	color: #333;
+	line-height: 33px;
+	float: right;
+}
+.case{
+	height: 80px;
+	background: url(../images/case.png)no-repeat bottom center;
+}
+.case_img{
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+.case_anli{
+	position: relative;
+}
+.case_left{
+	position: absolute;
+	top: 60%;
+	left: -5%;
+}
+.case_row{
+	margin-left: 0;
+	margin-right: 0;
+}
+@media (max-width:882px ){
+	.case_left{
+		display: none;
+	}
+	.case_right{
+		display: none;
+	}
+}
+@media (min-width: 991px) and (max-width: 1082px){
+	.case_left{
+		display: none;
+	}
+	.case_right{
+		display: none;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1260px){
+	.case_left{
+		display: none;
+	}
+	.case_right{
+		display: none;
+	}
+}
+.case_right{
+	position: absolute;
+	top: 60%;
+	right: -5%;
+}
+.carousel-indicators li {
+    width: 25px;
+    height: 6px;
+    background-color: #fff;
+    border-radius:0; 
+    border: none;
+}
+.carousel-indicators .active {
+    width: 25px;
+    height: 6px;
+    background-color: #ccc;
+    border: none;
+}
+.ts{
+	height: 282px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.why{
+	height: 282px;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.more-sj{
+	font-size: 8px;
+	color: #454545;
+}
+.xqdj-jt{
+	margin-left: 2px;
+	transition: 0.5s
+}
+.xqdj:hover{
+	transition: 0.5s;
+	transform: translate(20px);
+}
+.jq22-container{
+	margin: 20px 0;
+	padding-top: 75px;
+}
+.left-con{
+	font-size: 40px;
+	color: #000;
+	position: absolute;
+	left: -8px;
+	top: 45%;
+}
+.right-con{
+	font-size: 40px;
+	color: #000;
+	position: absolute;
+	right: -8px;
+	top: 45%;
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<body>
+
+<!-- 页面头部 -->
+<header>
+        <!-- 导航结构 -->
+        <nav class="navbar navbar-inverse nav-top">
+            <div class="container">
+
+                <div class="navbar-header col-xs-5 col-sm-5 col-md-5">
+
+                    <!-- logo -->
+                    <a class="logo" href="index.html">
+                        <img src="./images/logo.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-xs-7 col-sm-7 col-md-7">
+                    <ul class="nav navbar-right nav_cont">
+                        <li><a href="user_login.html">登录</a></li>
+                        <li><a href="user_reg.html">注册</a></li>
+                        <li class="dropdown qxwz">
+                          <a href="#" class="dropdown-toggle nav_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">旗下网站 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">中文</a></li>
+                                <li><a href="#">英文</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">其他</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- 缩小页面宽度，显示右边的按钮，点击可以展开 -->
+                    <button type="button" class="navbar-toggle collapsed navbar_button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="navbar" class="collapse top-50 navbar-collapse nav_right" aria-expanded="false" style="height: 1px;">
+                <!-- 右边的下拉菜单 -->
+
+	                <ul class="nav navbar-nav nav_right_cont daohang">
+	                    <li><a href="about.html">了解文豆</a></li>
+	                    <li><a href="cases.html">案例展示</a></li>
+	                    <li><a href="###">服务介绍</a></li>
+	                    <li><a href="news.html">资讯中心</a></li>
+	                    <li><a href="contact.html">联系我们</a></li>
+	                    <li><a href="###">合作伙伴</a></li>
+	                </ul>
+
+            	</div>
+
+            </div>
+            <!-- 导航菜单 -->
+            
+        </nav>
+</header>
+
+<div class="banner center-block">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <img class="center-block"  src="./images/banner.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="center-block"  src="./images/banner.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="center-block"  src="./images/banner.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"><i class="iconfont left-con">&#xe60a;</i></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"><i class="iconfont right-con">&#xe6c9;</i></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+
+</div>
+</div>  <!-- 广告位 -->
+
+<section>
+	<div class="container white">
+		<div class="row">   <!-- 最大 -->
+			<div class="col-sm-12 col-md-8">
+				
+				<div class="row">
+					<div class="col-sm-2 col-md-2 col-xs-2">
+						<img class="img-responsive center-block" src="./images/service_01.png" alt="">
+						<p class="hs text-center margin-top30">移动端应用开发解决方案</p>
+					</div>
+
+					<div class="col-sm-2 col-md-2 col-xs-2">
+						<img class="img-responsive center-block" src="./images/service_02.png" alt="">
+						<p class="hs text-center margin-top30">高品质网站解决方案</p>
+					</div>
+
+					<div class="col-sm-2 col-md-2 col-xs-2">
+						<img class="img-responsive center-block" src="./images/service_03.png" alt="">
+						<p class="hs text-center margin-top30">电子商务平台解决方案</p>
+					</div>
+
+					<div class="col-sm-2 col-md-2 col-xs-2">
+						<img class="img-responsive center-block" src="./images/service_04.png" alt="">
+						<p class="hs text-center margin-top30">微信应用解决方案</p>
+					</div>
+
+					<div class="col-sm-2 col-md-2 col-xs-2">
+						<img class="img-responsive center-block" src="./images/service_05.png" alt="">
+						<p class="hs text-center margin-top30">PHP网站开发人才培养服务</p>
+					</div>
+
+					<div class="col-sm-2 col-md-2 col-xs-2">
+						<img class="img-responsive center-block" src="./images/service_06.png" alt="">
+						<p class="hs text-center margin-top30">企业信息化解决方案</p>
+					</div>
+	
+				</div>
+				
+				<h4>电子商务方案</h4>
+				<p class="hs">电子商务,B2B,B2C,C2C,O2O</p>
+				<p class="hs">基于多年网络营销和自身在电子商务运营的基础上形成的解决方案。 电子商务（E-COMMERCE）：从广义上说，是指以电子设备为媒介进行的商务活动；从狭义上说，是指以计算机网络为基础所进</p>
+			</div>	<!-- 左边 -->
+			
+
+			<div class="col-xs-12 col-sm-12 col-md-4"> <!-- 右边 -->
+				<div class="row">
+					<div class="col-xs-4 col-sm-4 col-md-4 padding-right">
+						<div class="title1"><h4 class="text-center">咨询中心</h4></div>
+					</div> 
+
+					<div class="col-xs-8 col-sm-8 col-md-8 more ">
+						<div class="navbar-right"><a href="" class="More">More<i class="iconfont more-sj">&#xe60d;</i></a></div>
+					</div>
+				</div>
+
+				<ul class="zx">
+					<li><a href="">Ghost 博客中文版 0.5.5 正式发布</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">10款提高iOS开发效率的XCode插件</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">ONES-PHP开源企业管理软件</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">PHP系统设计与云架构</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">帮助你克服新手程序员最怕的事情</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">使用虚拟化来做PHP开发让你更专业</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">推荐给程序员的6款bootstrap模板</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href=""> 网页设计中的“点、线、面</a><p class="mg0 navbar-right">2014-11-25</p></li>
+					<li><a href="">百度站长学院：如何防止网站内部搜索被他人恶</a><p class="mg0 navbar-right">2014-11-24</p></li>
+					<li><a href="">2014年全球网站设计的15个趋势</a><p class="mg0 navbar-right">2014-11-24</p></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+</section>
+
+<section>  <!-- 优秀案例 -->
+
+<div class="container">
+	
+	<div class="row case_row">
+		
+		<div class="col-xs-12 col-sm-12 col-md-12 case">
+			<h2 class="text-center">优秀案例<small>/Excellent cases</small><a class="navbar-right More" href="">More<i class="iconfont more-sj">&#xe60d;</i></a></h2>
+		</div>
+ 
+		<section class="jq22-container">
+		<div class="container">
+		  <div id="single" class="carousel slide" data-ride="carousel" data-shift="1">
+		    <div class="carousel-inner">
+		      <ul class="row item active">
+		        <li class="col-xs-4 one">
+		          <img src="./images/case_01.png"  class="img-responsive">
+		        </li>
+		        <li class="col-xs-4 two">
+		          <img src="./images/case_02.png" class="img-responsive">
+		        </li>
+		        <li class="col-xs-4 three">
+		          <img src="./images/case_03.png" class="img-responsive">
+		        </li>
+		      </ul>
+		      <ul class="row item">
+		        <li class="col-xs-4 four">
+		          <img src="./images/case_01.png" class="img-responsive">
+		        </li>
+		        <li class="col-xs-4 five">
+		          <img src="./images/case_02.png" class="img-responsive">
+		        </li>
+		        <li class="col-xs-4 six">
+		          <img src="./images/case_03.png" class="img-responsive">
+		        </li>
+		      </ul>
+		    </div>
+
+		    <a id="left-30" class="carousel-control left" href="#single" data-slide="prev"><i class="iconfont left-con">&#xe60a;</i></a>
+		    <a id="right-30" class="carousel-control right" href="#single" data-slide="next"><i class="iconfont right-con">&#xe6c9;</i></a>
+		  </div>
+		  
+	</section>
+
+	</div>
+
+</div>
+
+</section>
+
+<section class="link">
+
+	<div class="container">
+		
+		<div class="row">
+			
+			<div class="col-xs-12 col-sm-4 col-md-4 why">
+				<h3>为什么选择文豆</h3>
+				<p><a class="red" href="">文豆集团</a>是一家提供互联网服务的高科技集团公司，集策划、设计、前端优化、研发、测试、系统运维、网站推广、运营、团队外包及互联网人才培养为一体的成熟业务体系；</p>
+				<p>主要提供高品质网站建设方案，移动端应用开发方案，微应用、微商城、微官网、微互动营销解决方案，企业信息化解决方案，以及PHP网站开发、Java开发、UI设计、淘宝美工人才培养服务，人才外包服务，高端IT人才猎头服务。</p>
+
+				<a href="" class="xqdj center-block text-center">详情点击<i class="iconfont xqdj-jt">&#xe608;</i></a>
+			</div>
+
+			<div class="col-xs-12 col-sm-4 col-md-4 ts">
+				<h3>服务特色</h3>
+				
+				<div class="row">
+					<div class="col-xs-5 col-md-5 col-sm-5">
+						<img class="img-responsive" src="./images/ts.png" alt="">
+					</div>
+
+					<div class="col-xs-7 col-sm-7 col-md-7">
+						<h5>网站建设</h5>
+						<p>文豆集团，是一家具有独立注册商标的网络科技公司。</p>
+						<h5>营销推广</h5>
+						<p>网络推广就是利用互联网进行宣传推广活动 。被推广对象可以是企业、产品、政府以及个人 的信息和网站等。据09年调查显示，中国93% 的企业.</p>
+					</div>
+				</div>
+
+				<a href="" class="xqdj center-block text-center">详情点击<i class="iconfont xqdj-jt">&#xe608;</i></a>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<h3>联系我们</h3>
+				
+				<div class="row">
+					
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<img class="img-responsive" src="./images/dh.png" alt="">
+					</div>
+					
+					<div class="col-xs-8 col-md-8 col-sm-8">
+						<p class="gz">广州：400-889-7654</p>
+						<p class="gz">深圳：400-889-8076</p>
+<!-- 						<iframe width="400" scrolling="no" height="100" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=4&num=5"></iframe> -->
+					</div>
+				</div>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=614120856&site=qq&menu=yes" style="float:right"><img border="0" src="http://wpa.qq.com/pa?p=2:614120856:53" alt="欢迎咨询" /></a>
+
+				<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+
+<footer>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<ul class="list clearfix">
+					<li><a href="about.html">了解文豆</a></li>
+					<li><a href="cases.html">案例展示</a></li>
+					<li><a href="">服务介绍</a></li>
+					<li><a href="news.html">咨询中心</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<li><a href="">合作伙伴</a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<p>文豆集团 Copyright 2009-2015 All Rights Reserved wengdo</p>
+				<p>法律顾问：广东晟晨律师事务所－张勇律师</p>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<p class="text-center">粤ICP备12022584号－3</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				
+				<ul class="share clearfix navbar-right">
+					<li><p class="share_p">分享到：</p></li>
+					<li><a href=""><img class="img-responsive" src="./images/share1.png" alt=""></a></li>
+					<li><a href=""><img class="img-responsive" src="./images/share2.png" alt=""></a></li>
+					<li><a href=""><img class="img-responsive" src="./images/share3.png" alt=""></a></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+	</div>
+
+</footer>
+
+	<script src="./js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

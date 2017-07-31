@@ -1,0 +1,153 @@
+@media (max-width: 768px){
+.dc {
+    position: absolute;
+    top: 0;
+    left: 15%;
+	}
+}
+.dl>li:first-child a {
+    border-right:none!important;
+    background: #f1b911;
+    border-radius: 4px;
+    color: #fff!important;
+}
+.dl>li:nth-child(2) a{
+	border-left: 1px solid #000!important;
+	margin-left: 10px;
+}
+.dl>li:first-child:hover a{
+	background: #f1b911;
+    border-radius: 4px;
+    color: #fff!important;
+}
+.head{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-left: 18%;
+	margin-top: 10%;
+}
+.head img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+small, .small {
+    font-size: 19px;
+    line-height: 97px;
+    margin-left: 20px;
+}
+.border{
+	border: 1px solid #ccc;
+	padding: 0;
+}
+.border-left{
+	border-left: 1px solid #ccc;
+}
+.border-top{
+	border-top:1px solid #ccc;
+}
+.jbxx a{
+	display: block;
+	width: 100%;
+}
+.jbxx a p{
+	font-size: 14px;
+	line-height:50px;
+	color: #666;
+	margin-left: 15%;
+}
+.jbxx:hover{
+	background-color: #00ae4f;
+}
+.jbxx:hover a p{
+	color: #fff;
+}
+.zhsz{
+	background: #00ae4f;
+}
+.zhsz a{
+	display: block;
+	width: 100%
+}
+.zhsz a p{
+	font-size: 14px;
+	line-height:50px;
+	color: #fff;
+	margin-left: 15%;
+}
+
+
+.information{
+	padding: 7px 13px;
+	width: 82px;
+    height: 35px;
+    float: left;
+    background-color:#00ae4f;
+}
+
+.information a{
+	display: block;
+}
+.information a p{
+	font-size: 14px;
+	color: #fff;
+}
+.dh{
+	border-bottom: 1px solid #ccc;
+}
+.padding{
+	padding: 44px 50px 150px 50px
+}
+.sj {
+    display: inline-block;
+}
+.xx{
+	padding: 20px 0 0 20px;
+}
+.bottom{
+	margin-bottom: 5%;
+}
+table tr td p{
+	float: right;
+	margin: 0;
+}
+table input{
+	margin: 10px 0 10px 10px;
+	width: 240px;
+	height: 33px;
+	border: 1px solid #ccc;
+}
+table select{
+	margin: 10px 0 10px 10px;
+	height: 33px;
+	width:80px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+}
+.delu{
+	width: 190px;
+	height: 40px;
+	background-color: #00ae50;
+	color: #fff;
+	border-radius: 4px;
+	margin: 20px 0 0 79px;
+}
+.ly{
+	padding: 33px 0 7px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.bottom30{
+	margin-bottom: 30px;
+}
+.left30{
+	margin-left: 30px;
+}
+.top20{
+	margin-top: 20px;
+}
+span{
+	font-size: 12px;
+	color: #999;
+}

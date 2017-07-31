@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=750 , target-densitydpi=device-dpi,maximum-scale=2.0, user-scalable=no">
+	<title>用户登录</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/user_login.css">
+</head>
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/jquery-DJMask.2.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+<body>
+
+<header>
+        <!-- 导航结构 -->
+    <nav class="navbar navbar-inverse nav-top">
+            <div class="container">
+
+                <div class="navbar-header col-xs-5 col-sm-5 col-md-5">
+
+                    <!-- logo -->
+                    <a class="logo" href="index.html">
+                        <img src="./images/logo.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-xs-7 col-sm-7 col-md-7">
+                    <ul class="nav navbar-right nav_cont">
+                        <li><a href="user_center.html">登录</a></li>
+                        <li class="dropdown">
+                        	<a href="user_reg.html">注册</a>
+                        	<ul class="dropdown-menu">
+								<li><a href="user_login.html">退出登录</a></li>
+                        	</ul>
+                        </li>
+
+                        <li class="dropdown qxwz">
+                          <a href="#" class="dropdown-toggle nav_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">旗下网站 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">中文</a></li>
+                                <li><a href="#">英文</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">其他</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- 缩小页面宽度，显示右边的按钮，点击可以展开 -->
+                    <button type="button" class="navbar-toggle collapsed navbar_button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- 导航菜单 -->
+                <div id="navbar" class="collapse top-50 navbar-collapse nav_right" aria-expanded="false" style="height: 1px;">
+                <!-- 右边的下拉菜单 -->
+
+	                <ul class="nav navbar-nav nav_right_cont daohang">
+	                    <li><a href="about.html">了解文豆</a></li>
+	                    <li><a href="cases.html">案例展示</a></li>
+	                    <li><a href="###">服务介绍</a></li>
+	                    <li><a href="news.html">资讯中心</a></li>
+	                    <li><a href="contact.html">联系我们</a></li>
+	                    <li><a href="###">合作伙伴</a></li>
+	                </ul>
+
+            	</div>
+
+            </div>
+        </nav>
+</header>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<img class="img-responsive top20" src="./images/case_img2.png" alt="">
+			
+			<div class="break">
+				<a href="index.html">&lt;&lt;&nbsp;返回首页</a>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<section>   <!-- 用户登录 -->
+	
+	<div class="container">
+
+		<div class="row border">
+
+			<div class="col-xs-8 col-sm-7 col-md-7">		<!-- 用户登录左边 -->
+				<div class="demo">
+					<h4>用户登录</h4>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-7 col-sm-7 col-md-7">
+						<div class="user">
+							<p><span>账号&nbsp;&nbsp;</span><input type="text" name="username" placeholder="用户名"></p>
+							<p><span>密码&nbsp;&nbsp;</span><input type="password" name="password" placeholder="密码"></p>
+							<p class="text-center"><button class="text-center delu" value="提醒" type="submit" name="demo" onclick='DJMask.alert("您好,欢迎来到文豆！",function(){DJMask.msg("登录成功")})'>登录</button></p>
+							<!-- <p><input type="button" value="提醒" onclick='DJMask.alert("你好,Mo",function(){DJMask.msg("你点击了确定")})'/></p> -->
+						</div>
+					</div>
+				</div>
+			</div>		<!-- 用户登录左边 -->
+			
+
+			<div class="col-xs-4 col-sm-5 col-md-5 border-left">		<!-- 快速注册右边 -->
+
+				<p>还没有账号？</p>
+
+				<a href="user_reg.html"><button class="text-center zc">快速注册</button></a>
+
+			</div>		<!-- 快速注册右边 -->
+
+		</div>
+
+	</div>
+
+</section>
+
+<footer>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<ul class="list clearfix">
+					<li><a href="about.html">了解文豆</a></li>
+					<li><a href="cases.html">案例展示</a></li>
+					<li><a href="">服务介绍</a></li>
+					<li><a href="news.html">咨询中心</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<li><a href="">合作伙伴</a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<p>文豆集团 Copyright 2009-2015 All Rights Reserved wengdo</p>
+				<p>法律顾问：广东晟晨律师事务所－张勇律师</p>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<p class="text-center">粤ICP备12022584号－3</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				
+				<ul class="share clearfix navbar-right">
+					<li><p class="share_p">分享到：</p></li>
+					<li><a href=""><img class="img-responsive" src="./images/share1.png" alt=""></a></li>
+					<li><a href=""><img class="img-responsive" src="./images/share2.png" alt=""></a></li>
+					<li><a href=""><img class="img-responsive" src="./images/share3.png" alt=""></a></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+	</div>
+
+</footer>
+</body>
+</html>

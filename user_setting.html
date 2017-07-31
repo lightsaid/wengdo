@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=750 , target-densitydpi=device-dpi,maximum-scale=2.0, user-scalable=no">
+	<title>账号设置</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/user_setting.css">
+</head>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src="http://www.my97.net/dp/My97DatePicker/WdatePicker.js"></script>
+<body>
+
+<header>
+        <!-- 导航结构 -->
+        <nav class="navbar navbar-inverse nav-top">
+            <div class="container">
+
+                <div class="navbar-header col-xs-5 col-sm-5 col-md-5">
+
+                    <!-- logo -->
+                    <a class="logo" href="index.html">
+                        <img src="./images/logo.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-xs-7 col-sm-7 col-md-7">
+                    <ul class="nav navbar-right nav_cont">
+                        <li><a href="user_center.html">用户中心</a></li>
+                        <li class="dropdown">
+                        	<a href="#" class="dropdown-toggle nav_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">username<i class="iconfont" style="margin-left:10px">&#xe61d;</i></a>
+                        	<ul class="dropdown-menu">
+								<li><a href="user_login.html">退出登录</a></li>
+                        	</ul>
+                        </li>
+                        <li class="dropdown qxwz">
+                          <a href="#" class="dropdown-toggle nav_btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">旗下网站 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">中文</a></li>
+                                <li><a href="#">英文</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">其他</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- 缩小页面宽度，显示右边的按钮，点击可以展开 -->
+                    <button type="button" class="navbar-toggle collapsed navbar_button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- 导航菜单 -->
+                <div id="navbar" class="collapse top-50 navbar-collapse nav_right" aria-expanded="false" style="height: 1px;">
+                <!-- 右边的下拉菜单 -->
+
+	                <ul class="nav navbar-nav nav_right_cont daohang">
+	                    <li><a href="about.html">了解文豆</a></li>
+	                    <li><a href="cases.html">案例展示</a></li>
+	                    <li><a href="###">服务介绍</a></li>
+	                    <li><a href="news.html">资讯中心</a></li>
+	                    <li><a href="contact.html">联系我们</a></li>
+	                    <li><a href="###">合作伙伴</a></li>
+	                </ul>
+
+            	</div>
+
+            </div>
+        </nav>
+</header>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<img class="img-responsive top20" src="./images/case_img2.png" alt="">
+			
+			<div class="break">
+				<a href="index.html">首页&nbsp;&gt;</a>
+				<a href="user_center.html">用户中心&nbsp;&gt;</a>
+				<a href="user_setting.html">账号设置</a>
+			</div>
+		</div>
+		
+	</div>
+</section>
+ 
+<section>   <!-- 用户信息 -->
+
+<div class="container">
+
+		<div class="row bottom border">
+
+			<div class="col-xs-3 col-sm-3 col-md-3 padding0">		<!-- 左边导航 -->
+				
+				<div class="head clearfix"><a href=""><img class="img-responsive center-block" src="./images/head.jpg" alt=""></a></div>
+				<small>username</small>
+				
+				<div class="jbxx border-top"><a href="user_center.html"><p>基本信息<i class="iconfont user-jt">&#xe63a;</i></p></a></div>
+
+				<div class="zhsz"><a href="user_setting.html"><p>账号设置<i class="iconfont user-jt">&#xe63a;</i></p></a></div>
+
+				<div class="jbxx"><a href="user_msg.html"><p>客户留言<i class="iconfont user-jt">&#xe63a;</i></p></a></div>
+			</div>
+
+
+			<div class="col-xs-9 col-sm-9 col-md-9 border-left white padding">		<!-- 右边信息 -->
+					
+				<div class="dh clearfix">
+					<div class="information"><a href="user_center.html"><p>基本信息</p></a></div>
+
+					<div class="set"><a href="user_setting.html"><p>账号设置</p></a></div>
+				</div>
+
+				<div class="xx">
+					<table border="0">
+						<tr>
+							<td><p>真实姓名：</p></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><p>性别：</p></td>
+							<td>
+								<select name="" id="">
+									<option value="">男</option>
+									<option value="">女</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><p>生日：</p></td>
+							<td class="sr"><input class="birthday" type="text" id="d11" value="2017-04-24" onclick="WdatePicker()"><i class="iconfont date">&#xe621;</i></input></td>
+						</tr>
+						<tr>
+							<td><p>手机：</p></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><p>电子邮箱：</p></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><p>QQ：</p></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><p>详细地址：</p></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+					<p><button class="text-center delu" type="submit" name="demo">保存资料</button></p>
+				</div>
+
+			</div>
+
+
+		</div>
+
+</div>
+
+</section>
+
+<footer>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<ul class="list clearfix">
+					<li><a href="about.html">了解文豆</a></li>
+					<li><a href="cases.html">案例展示</a></li>
+					<li><a href="">服务介绍</a></li>
+					<li><a href="news.html">咨询中心</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<li><a href="">合作伙伴</a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<p>文豆集团 Copyright 2009-2015 All Rights Reserved wengdo</p>
+				<p>法律顾问：广东晟晨律师事务所－张勇律师</p>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<p class="text-center">粤ICP备12022584号－3</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				
+				<ul class="share clearfix navbar-right">
+					<li><p class="share_p">分享到：</p></li>
+					<li><a href=""><img class="img-responsive" src="./images/share1.png" alt=""></a></li>
+					<li><a href=""><img class="img-responsive" src="./images/share2.png" alt=""></a></li>
+					<li><a href=""><img class="img-responsive" src="./images/share3.png" alt=""></a></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+	</div>
+
+</footer>
+
+
+</body>
+</html>
